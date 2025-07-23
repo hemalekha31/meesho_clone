@@ -8,6 +8,12 @@
     display: flex;
     margin-top: 0px;
 }
+.search input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+}
 
 .head {
     color: purple;
