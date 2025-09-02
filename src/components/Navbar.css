@@ -1,0 +1,56 @@
+
+.nav-item .he {
+    margin-left: 70px;
+    margin-top: -15px;
+    transform: rotate(90deg);
+    color: rgb(200, 193, 193);
+}
+
+.nav-item {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 80px;
+
+
+}
+
+.nav-item span {
+    margin-right: 70px;
+    text-align: center;
+}
+
+.nav-items {
+    margin-left: 60px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.nav-items i {
+    margin-left: 10px;
+
+}
+
+.nav-items #cart {
+    margin-left: 4px;
+}
+
+.navp {
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.navp a {
+    color: rgb(91, 88, 88);
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navp a:hover {
+    color: purple;
+    text-decoration: underline 2px;
+    font-weight: 600;
+    transition: 100ms;
+
+}

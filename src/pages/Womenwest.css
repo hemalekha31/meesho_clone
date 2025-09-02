@@ -1,0 +1,866 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.headers {
+    display: flex;
+    margin-top: 0px;
+}
+.search input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.head {
+    color: purple;
+    font-size: 30px;
+    margin-right: 0px;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.search input {
+    background-color: transparent;
+    width: 500px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.search i {
+    margin-top: 40px;
+    margin-left: 76px;
+    color: gray;
+    position: absolute;
+    z-index: 99;
+}
+
+
+
+.nav-item .he {
+    margin-left: 70px;
+    margin-top: -15px;
+    transform: rotate(90deg);
+    color: rgb(200, 193, 193);
+}
+
+.nav-item {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 80px;
+
+
+}
+
+.nav-item span {
+    margin-right: 70px;
+    text-align: center;
+}
+
+.nav-items {
+    margin-left: 60px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.nav-items i {
+    margin-left: 10px;
+
+}
+
+.nav-items #cart {
+    margin-left: 4px;
+}
+
+.navp {
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.navp a {
+    color: rgb(91, 88, 88);
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navp a:hover {
+    color: purple;
+    text-decoration: underline 2px;
+    font-weight: 600;
+    transition: 100ms;
+
+}
+
+hr {
+    color: rgb(222, 217, 217);
+}
+
+.imsg {
+    color: transparent;
+    overflow: hidden;
+
+    display: block;
+}
+
+.im {
+    background-image: url('https://images.meesho.com/images/marketing/1746425994914.webp');
+    position: relative;
+    height: 450px;
+
+    background-repeat: no-repeat;
+}
+
+.tex {
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 1100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tex button {
+    padding: 20px;
+    border: none;
+    color: rgb(99, 6, 99);
+    background-color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ter {
+    padding: 20px;
+    background-color: rgb(241, 210, 241);
+}
+
+.ter .tcl {
+    display: flex;
+}
+
+.tcl {
+    border: 1px solid rgb(236, 182, 236);
+    padding: 2px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.tcl hr {
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.cod {
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+.esy {
+    margin-left: 400px;
+    margin-right: 30px;
+}
+
+.lp {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.imgsec {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imgsec img {
+    margin-left: 30px;
+}
+
+.imgsec p {
+    margin-top: 5px;
+}
+
+.imgsec .west p {
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+}
+
+.imgsec .mens-wear p {
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+
+.imgsec .foot p {
+    margin-left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+
+.imgsec .home p {
+    margin-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+
+.imgsec .eth p {
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+
+.imgsec .beauty p {
+    margin-left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+
+.imgsec .acces p {
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+
+.imgsec .grocery p {
+    margin-left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+
+
+.hello {
+    overflow: hidden;
+    position: relative;
+    height: 550px;
+    background-image: url("https://images.meesho.com/images/marketing/1744698265981.webp");
+}
+
+.but button {
+    color: #FFD182;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #FFD182;
+    background-color: #3F1F11;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 30px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 25px;
+    left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.img1 {
+    margin-left: 1000px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.img1 .im3 {
+    margin-right: 60px;
+}
+
+.ogBrands {
+    display: flex;
+    margin-left: 50px;
+    overflow: hidden;
+
+
+}
+
+.og {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.og h1 {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.og a {
+    margin-left: 1000px;
+    font-size: 20px;
+    text-decoration: none;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ogBrands img {
+    margin-right: 30px;
+}
+
+.mar {
+    background-color: rgb(235, 227, 227);
+    display: flex;
+    padding: 50px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+
+}
+
+.mar1,
+.mar2,
+.mar3,
+.mar4,
+.mar5,
+.mar6,
+.mar7,
+.mar8 {
+    padding: 5px;
+    background-color: white;
+    margin-right: 40px;
+    padding-left: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mar div img {
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.bata {
+    height: 65px;
+    width: auto;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.mar :hover .slide,
+.mar :active .slide {
+    animation-play-state: paused;
+}
+
+.tre {
+    background-image: url("https://images.meesho.com/images/marketing/1744698143534.webp");
+    width: 1519px;
+    height: 400px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.summer {
+    position: absolute;
+    margin-top: 50px;
+    left: 550px;
+}
+
+.bagy {
+    position: absolute;
+    left: 800px;
+    margin-top: 50px;
+}
+
+.ear {
+    position: absolute;
+    left: 1050px;
+    margin-top: 50px;
+}
+
+.flats {
+    position: absolute;
+    left: 1300px;
+    margin-top: 50px;
+}
+
+.tre .summer a {
+    position: absolute;
+    text-decoration: none;
+    bottom: -50px;
+    border: 2px solid gold;
+    background-color: white;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 150px;
+    left: 0px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.tre .bagy a {
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    border: 2px solid gold;
+    background-color: white;
+    color: purple;
+    bottom: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 150px;
+    left: 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.tre .ear a {
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    border: 2px solid gold;
+    background-color: white;
+    color: purple;
+    bottom: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 150px;
+    left: 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.tre .flats a {
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    border: 2px solid gold;
+    background-color: white;
+    color: purple;
+    bottom: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 150px;
+    left: 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+/*--- Base Styles ---*/
+.meesho-footer {
+    background: #f7eff7;
+    color: #555;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 40px 20px 20px;
+}
+
+.me-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-col {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-col h4 {
+    color: purple;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.socials a {
+    margin-right: 12px;
+    font-size: 20px;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.socials a:hover {
+    color: purple;
+}
+
+.me-footer-bottom {
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.policies a {
+    color: #777;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.policies a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .me-footer-links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-col {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .search input {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .imgsec {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tex {
+        left: 20px;
+        top: 100px;
+        font-size: 16px;
+    }
+}
+
+:root {
+    --primary-color: purple;
+    --text-color: #494949;
+    --hover-color: rgb(91, 88, 88);
+}
+
+.head {
+    color: var(--primary-color);
+}
+
+.navp a:hover {
+    color: var(--primary-color);
+}
+.Sarees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* Common styling for all cards */
+.aishani, .kashvi, .alluring, .superior {
+    width: 250px;
+    height: auto;
+    background-color: white;
+    border: 1px solid #e0dddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Image styling */
+.aishani img, .kashvi img, .alluring img, .superior img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Content container */
+.contu {
+    padding: 10px 15px;
+    color: #777;
+}
+
+/* Text elements */
+.contu p {
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.contu h3 {
+    font-size: 18px;
+    color: #494949;
+    margin: 10px 0;
+}
+
+/* Delivery info */
+.del, .dels-p {
+    font-size: 11px;
+    background-color: #f3f3f3;
+    color: #555;
+    padding: 4px 8px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.dels-p strike {
+    margin-left: 10px;
+}
+
+/* Rating badge */
+.rat {
+    background-color: #529652;
+    color: white;
+    font-size: 13px;
+    border-radius: 15px;
+    padding: 3px 8px;
+    width: fit-content;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rat i {
+    color: white;
+}
+
+/* Reviews text */
+.rev {
+    font-size: 13px;
+    margin-top: 6px;
+    color: #888;
+}
+
+/* Button styling */
+.contu button {
+    background-color: orangered;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contu button:hover {
+    background-color: #c73e00;
+}
+
+/* Base styling (already applied from your main CSS) */
+
+/* Mobile Devices (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    .headers {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .search {
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .search input {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .nav-item, .nav-items {
+        display: none;
+    }
+
+    .navp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .Sarees {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Sarees > div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .footer-col {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .me-footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .me-footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Tablets (min-width: 601px and max-width: 992px) */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .headers {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .search {
+        width: 60%;
+    }
+
+    .nav-item, .nav-items {
+        font-size: 14px;
+    }
+
+    .navp {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .Sarees {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .Sarees > div {
+        width: 45%;
+    }
+
+    .me-footer-links {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .footer-col {
+        width: 45%;
+    }
+
+    .me-footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Desktop (min-width: 993px) */
+@media only screen and (min-width: 993px) {
+    .headers {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+    }
+
+    .search input {
+        width: 400px;
+        padding: 8px;
+    }
+
+    .Sarees {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+
+    .Sarees > div {
+        width: 20%;
+    }
+
+    .me-footer-links {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .footer-col {
+        width: 20%;
+    }
+
+    .me-footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+    }
+}
+

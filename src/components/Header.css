@@ -1,0 +1,41 @@
+
+
+.header {
+    display: flex;
+    margin-top: 0px;
+}
+.search input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.head {
+    color: purple;
+    font-size: 30px;
+    margin-right: 0px;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.search input {
+    background-color: transparent;
+    width: 500px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.search i {
+    margin-top: 40px;
+    margin-left: 76px;
+    color: gray;
+    position: absolute;
+    z-index: 99;
+}
+
