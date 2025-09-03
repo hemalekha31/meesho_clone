@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hemalekha31.github.io/my_meesho/",
+  "homepage": "https://hemalekha31.github.io/my_app_meesho/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

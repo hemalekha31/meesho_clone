@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
@@ -14,26 +11,26 @@ import Women from './pages/Women'
 import Womenwest from './pages/Womenwest'
 
 function App() {
-
-
   return (
-    <>
+    <BrowserRouter basename="/my_meesho">
+  <Header />
+  <Navbar />
 
-      <BrowserRouter>
-        <Header />
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Content />} />
-          <Route path='/men' element={<Men />} />
-          <Route path='/women' element={<Women />} />
-          <Route path='/kids' element={<Kid />} />
-          <Route path='/womenwest' element={<Womenwest />} />
+  <main style={{ minHeight: "80vh", padding: "1rem" }}>
+    <Routes>
+      <Route path="/" element={<Content />} />
+      <Route path="/home" element={<Content />} />
+      <Route path="/men" element={<Men />} />
+      <Route path="/women" element={<Women />} />
+      <Route path="/kids" element={<Kid />} />
+      <Route path="/womenwest" element={<Womenwest />} />
+      <Route path="*" element={<h2>Page Not Found</h2>} />
+    </Routes>
+  </main>
 
-        </Routes>
+  <Footer />
+</BrowserRouter>
 
-        <Footer />
-      </BrowserRouter>
-    </>
   )
 }
 
