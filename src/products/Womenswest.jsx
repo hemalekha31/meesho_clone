@@ -1,0 +1,78 @@
+import React from "react";
+
+const Womenswest = [
+  {
+    id: 1,
+    title: "Casual Polyester Ribbed Collar",
+    price: 352,
+    oldprice: "",
+    del: "Free Delivery",
+    rating: "4.0⭐ | 16587 Reviews",
+    img: "https://images.meesho.com/images/products/425945507/kkn9n_400.webp",
+  },
+  {
+    id: 2,
+    title: "Minimalist Cropped Bodysuit",
+    price: 291,
+    oldprice: "",
+    del: "Free Delivery",
+    rating: "4.0⭐ | 12533 Reviews",
+    img: "https://images.meesho.com/images/products/507286436/8up1y_400.webp",
+  },
+  {
+    id: 3,
+    title: "TUSI-Tank Top Combo",
+    price: 102,
+    oldprice: "",
+    del: "Free Delivery",
+    rating: "4.2⭐ | 93447 Reviews",
+    img: "https://images.meesho.com/images/products/237236688/iisj3_400.webp",
+  },
+  {
+    id: 4,
+    title: "Trendy Tops & Tunics",
+    price: 309,
+    oldprice: "",
+    del: "Free Delivery",
+    rating: "4.0⭐ | 12628 Reviews",
+    img: "https://images.meesho.com/images/products/448967008/4fwho_400.webp",
+  },
+  {
+    id: 5,
+    title: "Stylish Elegant Women Tops",
+    price: 290,
+    oldprice: "",
+    del: "Free Delivery",
+    rating: "3.9⭐ | 4773 Reviews",
+    img: "https://images.meesho.com/images/products/499095795/2webs_400.webp",
+  },
+  {
+    id: 6,
+    title: "Trendy Party Wear Top",
+    price: 407,
+    oldprice: "",
+    del: "Free Delivery",
+    rating: "4.2⭐ | 2572 Reviews",
+    img: "https://images.meesho.com/images/products/460219743/7as91_400.webp",
+  },
+  {
+    id: 7,
+    title: "Pretty Elegant Jumpsuits",
+    price: 258,
+    oldprice: "",
+    del: "Free Delivery",
+    rating: "4.0⭐ | 5871 Reviews",
+    img: "https://images.meesho.com/images/products/296378471/jrthz_400.webp",
+  },
+  {
+    id: 8,
+    title: "Trendy Sleeveless Crop Top",
+    price: 199,
+    oldprice: "",
+    del: "Free Delivery",
+    rating: "4.1⭐ | 812 Reviews",
+    img: "https://images.meesho.com/images/products/536071511/jphxe_400.webp",
+  },
+];
+
+export default Womenswest;
