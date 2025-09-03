@@ -12,7 +12,7 @@ import Womenwest from './pages/Womenwest'
 
 function App() {
   return (
-    <BrowserRouter basename="/my_meesho">
+    <BrowserRouter basename="/my_app_meesho">
   <Header />
   <Navbar />
 
