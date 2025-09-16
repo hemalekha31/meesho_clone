@@ -1,8 +1,23 @@
 import React from 'react'
 import "./Women.css"
 import Womens from '../products/Womens'
+import { useDispatch, useSelector } from "react-redux";
+import { addToCart, deleteFromCart } from "../store/cartSlice/Cartslice";
 
 const Women = () => {
+
+
+  const cartProducts = useSelector((state) => state.cart.cartItem)
+    const dispatch = useDispatch()
+  
+  
+    const addCart = (item) => {
+      dispatch(addToCart(item))
+    }
+    const deletes = (item) => {
+      dispatch(deleteFromCart(item))
+  
+    }
   return (
     <div className="container mt-4">
       <div className="row">
@@ -18,7 +33,15 @@ const Women = () => {
               <div className="card-body">
                 <h5 className="card-title">{item.title}</h5>
                 <p className="card-text">₹{item.price} <br /> {item.del} <br />{item.rating}</p>
-                <a href="#" className="btn btn-primary">Add to cart</a>
+                {cartProducts.find(items => items.id === item.id) ? (
+                    <a href="#" className="btn btn-primary" onClick={() => { deletes(item) }}>
+                      Delete From Cart
+                    </a>
+                  ) : (
+                    <a href="#" className="btn btn-primary" onClick={() => { addCart(item) }}>
+                      Add To Cart
+                    </a>
+                  )}
               </div>
             </div>
           </div>

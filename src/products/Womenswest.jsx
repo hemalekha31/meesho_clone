@@ -2,7 +2,7 @@ import React from "react";
 
 const Womenswest = [
   {
-    id: 1,
+    id: 9,
     title: "Casual Polyester Ribbed Collar",
     price: 352,
     oldprice: "",
@@ -11,7 +11,7 @@ const Womenswest = [
     img: "https://images.meesho.com/images/products/425945507/kkn9n_400.webp",
   },
   {
-    id: 2,
+    id: 10,
     title: "Minimalist Cropped Bodysuit",
     price: 291,
     oldprice: "",
@@ -20,7 +20,7 @@ const Womenswest = [
     img: "https://images.meesho.com/images/products/507286436/8up1y_400.webp",
   },
   {
-    id: 3,
+    id: 11,
     title: "TUSI-Tank Top Combo",
     price: 102,
     oldprice: "",
@@ -29,7 +29,7 @@ const Womenswest = [
     img: "https://images.meesho.com/images/products/237236688/iisj3_400.webp",
   },
   {
-    id: 4,
+    id: 12,
     title: "Trendy Tops & Tunics",
     price: 309,
     oldprice: "",
@@ -38,7 +38,7 @@ const Womenswest = [
     img: "https://images.meesho.com/images/products/448967008/4fwho_400.webp",
   },
   {
-    id: 5,
+    id: 13,
     title: "Stylish Elegant Women Tops",
     price: 290,
     oldprice: "",
@@ -47,7 +47,7 @@ const Womenswest = [
     img: "https://images.meesho.com/images/products/499095795/2webs_400.webp",
   },
   {
-    id: 6,
+    id: 14,
     title: "Trendy Party Wear Top",
     price: 407,
     oldprice: "",
@@ -56,7 +56,7 @@ const Womenswest = [
     img: "https://images.meesho.com/images/products/460219743/7as91_400.webp",
   },
   {
-    id: 7,
+    id: 15,
     title: "Pretty Elegant Jumpsuits",
     price: 258,
     oldprice: "",
@@ -65,7 +65,7 @@ const Womenswest = [
     img: "https://images.meesho.com/images/products/296378471/jrthz_400.webp",
   },
   {
-    id: 8,
+    id: 16,
     title: "Trendy Sleeveless Crop Top",
     price: 199,
     oldprice: "",

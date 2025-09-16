@@ -34,46 +34,63 @@ const Content = () => {
         </div>
     </div>
     <div className="imgsec">
-        <div className="eth">
-           
-                <img src="https://images.meesho.com/images/marketing/1744634654837.webp" alt=""/>
-               <Link to='/women'> <p>Ethnic Wear</p>
-            </Link>
-        </div>
-        <div className="west">
-            <a href="womenwest.html">
-                <img src="https://images.meesho.com/images/marketing/1744634725496.webp" alt=""/>
-                <Link to='/womenwest'><p>Western Dresses</p></Link>
-            </a>
-        </div>
-        <div className="mens-wear">
-            <a href="mens.html">
-                <img src="https://images.meesho.com/images/marketing/1744634780426.webp" alt=""/>
-               <Link to='/men'> <p>Mens Wear</p></Link>
-            </a>
-        </div>
-        <div className="foot">
-            <img src="https://images.meesho.com/images/marketing/1744634814643.webp" alt=""/>
-            <p>Footwear</p>
-        </div>
-        <div className="home">
-            <img src="https://images.meesho.com/images/marketing/1744634835018.webp" alt=""/>
-            <p>Home Decor</p>
-        </div>
-        <div className="beauty">
-            <img src="https://images.meesho.com/images/marketing/1744634871107.webp" alt=""/>
-            <p>Beauty</p>
-        </div>
-        <div className="acces">
-            <img src="https://images.meesho.com/images/marketing/1744634909968.webp" alt=""/>
-            <p>Accessories</p>
-        </div>
-        <div className="grocery">
-            <img src="https://images.meesho.com/images/marketing/1744634937295.webp" alt=""/>
-            <p>Grocery</p>
-        </div>
-    </div>
-    <div className="hello">
+  <div className="eth">
+    <Link to='/women'>
+      <img src="https://images.meesho.com/images/marketing/1744634654837.webp" alt="Ethnic Wear"/>
+      <p>Ethnic Wear</p>
+    </Link>
+  </div>
+
+  <div className="west">
+    <Link to='/womenwest'>
+      <img src="https://images.meesho.com/images/marketing/1744634725496.webp" alt="Western Dresses"/>
+      <p>Western Dresses</p>
+    </Link>
+  </div>
+
+  <div className="mens-wear">
+    <Link to='/men'>
+      <img src="https://images.meesho.com/images/marketing/1744634780426.webp" alt="Mens Wear"/>
+      <p>Mens Wear</p>
+    </Link>
+  </div>
+
+  <div className="foot">
+    <Link to='/footwear'>
+      <img src="https://images.meesho.com/images/marketing/1744634814643.webp" alt="Footwear"/>
+      <p>Footwear</p>
+    </Link>
+  </div>
+
+  <div className="home">
+    <Link to='/home-decor'>
+      <img src="https://images.meesho.com/images/marketing/1744634835018.webp" alt="Home Decor"/>
+      <p>Home Decor</p>
+    </Link>
+  </div>
+
+  <div className="beauty">
+    <Link to='/beauty'>
+      <img src="https://images.meesho.com/images/marketing/1744634871107.webp" alt="Beauty"/>
+      <p>Beauty</p>
+    </Link>
+  </div>
+
+  <div className="acces">
+    <Link to='/accessories'>
+      <img src="https://images.meesho.com/images/marketing/1744634909968.webp" alt="Accessories"/>
+      <p>Accessories</p>
+    </Link>
+  </div>
+
+  <div className="grocery">
+    <Link to='/grocery'>
+      <img src="https://images.meesho.com/images/marketing/1744634937295.webp" alt="Grocery"/>
+      <p>Grocery</p>
+    </Link>
+  </div>
+</div>
+<div className="hello">
         <div className="but">
             <button>Shop Now</button>
         </div>
