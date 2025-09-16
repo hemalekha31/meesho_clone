@@ -17,7 +17,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function App() {
   return (
     <Provider store={Store}>
-    <BrowserRouter basename="/meesho_clone">
+    <BrowserRouter>
         <Header />
         <Navbar />
 
