@@ -3,10 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <script type="text/javascript">
-      // This keeps the current path, but serves index.html so React can take over
-      sessionStorage.redirect = location.pathname;
-      window.location.href = "/meesho_clone/";
+      // Redirect all 404s to index.html (for React Router)
+      var pathname = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      var redirect = "/meesho_clone/index.html?p=" + 
+                      pathname + search + hash;
+      window.location.replace(redirect);
     </script>
   </head>
-  <body></body>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
 </html>
